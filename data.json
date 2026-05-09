@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-05-06T07:25:00+09:00",
+  "items": [
+    {
+      "category": "it_ai",
+      "title": "サンプル: AIモデルの最新発表",
+      "summary": "本日のニュース取得が完了するまでの初期サンプルです。スケジュールタスクが実行されると、本日収集された最新ニュースに置き換わります。",
+      "url": "https://example.com/sample-1",
+      "published_at": "2026-05-06T06:00:00+09:00"
+    },
+    {
+      "category": "it_ai",
+      "title": "サンプル: 半導体業界の動向",
+      "summary": "サンプルデータです。実運用ではIT/AIに関するニュースが3件表示されます。",
+      "url": "https://example.com/sample-2",
+      "published_at": "2026-05-06T05:00:00+09:00"
+    },
+    {
+      "category": "it_ai",
+      "title": "サンプル: クラウドプラットフォームの新機能",
+      "summary": "サンプルデータです。",
+      "url": "https://example.com/sample-3",
+      "published_at": "2026-05-06T04:00:00+09:00"
+    },
+    {
+      "category": "politics",
+      "title": "サンプル: 国会で重要法案が審議",
+      "summary": "サンプル政治ニュースです。",
+      "url": "https://example.com/sample-4",
+      "published_at": "2026-05-06T07:00:00+09:00"
+    },
+    {
+      "category": "politics",
+      "title": "サンプル: 内閣支持率の動向",
+      "summary": "サンプル政治ニュースです。",
+      "url": "https://example.com/sample-5",
+      "published_at": "2026-05-06T06:30:00+09:00"
+    },
+    {
+      "category": "politics",
+      "title": "サンプル: 政策発表の概要",
+      "summary": "サンプル政治ニュースです。",
+      "url": "https://example.com/sample-6",
+      "published_at": "2026-05-06T06:15:00+09:00"
+    },
+    {
+      "category": "world",
+      "title": "サンプル: 国際情勢のアップデート",
+      "summary": "サンプル世界情勢ニュースです。",
+      "url": "https://example.com/sample-7",
+      "published_at": "2026-05-06T07:10:00+09:00"
+    },
+    {
+      "category": "world",
+      "title": "サンプル: 経済指標の発表",
+      "summary": "サンプル世界情勢ニュースです。",
+      "url": "https://example.com/sample-8",
+      "published_at": "2026-05-06T06:50:00+09:00"
+    },
+    {
+      "category": "world",
+      "title": "サンプル: 重要外交イベント",
+      "summary": "サンプル世界情勢ニュースです。",
+      "url": "https://example.com/sample-9",
+      "published_at": "2026-05-06T05:30:00+09:00"
+    },
+    {
+      "category": "featured",
+      "title": "サンプル: 本日の注目トピック",
+      "summary": "サンプル注目ニュースです。スケジュールタスク（daily-ai-news）が次回実行された時点で、自動的に本日のニュースに置き換わります。",
+      "url": "https://example.com/sample-10",
+      "published_at": "2026-05-06T07:20:00+09:00"
+    },
+    {
+      "category": "featured",
+      "title": "サンプル: 注目の社会動向",
+      "summary": "サンプル注目ニュースです。",
+      "url": "https://example.com/sample-11",
+      "published_at": "2026-05-06T06:40:00+09:00"
+    },
+    {
+      "category": "featured",
+      "title": "サンプル: 話題の話題",
+      "summary": "サンプル注目ニュースです。",
+      "url": "https://example.com/sample-12",
+      "published_at": "2026-05-06T05:45:00+09:00"
+    }
+  ]
+}
