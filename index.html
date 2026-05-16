@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily News Portal | IT・AI・政治・世界情勢</title>
+<meta name="description" content="毎日更新される注目ニュースをまとめてお届け。IT/AI、政治、世界情勢、注目ニュースを各ジャンル3件ずつ配信。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><circle cx="16" cy="16" r="14" fill="url(#g)"/><path d="M9 12h14M9 16h14M9 20h10" stroke="#fff" stroke-width="2" stroke-linecap="round"/><defs><linearGradient id="g" x1="0" y1="0" x2="32" y2="32"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      </div>
+      <div>
+        <h1 class="brand-title">Daily News Portal</h1>
+        <p class="brand-sub">IT・AI / 政治 / 世界情勢 / 注目ニュース</p>
+      </div>
+    </div>
+    <div class="updated">
+      <span class="updated-label">表示中の日付</span>
+      <span id="updated-at" class="updated-time">—</span>
+    </div>
+  </div>
+
+  <nav class="view-switch" aria-label="表示切替">
+    <button class="view-btn is-active" data-view="latest">最新ニュース</button>
+    <button class="view-btn" data-view="calendar">カレンダーで過去を見る</button>
+  </nav>
+
+  <nav class="tabs" id="tabs" aria-label="カテゴリ">
+    <button class="tab is-active" data-cat="all">すべて</button>
+    <button class="tab" data-cat="it_ai">IT・AI</button>
+    <button class="tab" data-cat="politics">政治</button>
+    <button class="tab" data-cat="world">世界情勢</button>
+    <button class="tab" data-cat="featured">注目ニュース</button>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- カレンダーパネル -->
+  <section id="calendar-panel" class="calendar-panel" hidden>
+    <div class="cal-head">
+      <button class="cal-nav" id="cal-prev" aria-label="前の月">‹</button>
+      <h2 class="cal-title" id="cal-title">—</h2>
+      <button class="cal-nav" id="cal-next" aria-label="次の月">›</button>
+      <button class="cal-today" id="cal-today">今日</button>
+    </div>
+    <div class="cal-weekdays">
+      <span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span>
+    </div>
+    <div class="cal-grid" id="cal-grid"></div>
+    <p class="cal-hint">●印のある日付をクリックすると、その日のニュースが表示されます。</p>
+  </section>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">本日のヘッドライン</p>
+      <h2 class="hero-title" id="hero-title">最新ニュースを読み込み中…</h2>
+      <p class="hero-summary" id="hero-summary"></p>
+      <a class="hero-link" id="hero-link" href="#" target="_blank" rel="noopener" hidden>記事を読む →</a>
+    </div>
+    <div class="hero-meta">
+      <span class="hero-cat" id="hero-cat"></span>
+      <span class="hero-date" id="hero-date"></span>
+    </div>
+  </section>
+
+  <section id="news-section">
+    <div id="news-grid" class="news-grid" aria-live="polite"></div>
+    <p id="empty" class="empty" hidden>表示するニュースがありません。</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Daily News Portal &middot; 毎日自動更新</p>
+  <p class="footer-note">本サイトは収集した公開情報の要約です。詳細は各ソースをご確認ください。</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
