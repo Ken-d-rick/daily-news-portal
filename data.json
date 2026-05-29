@@ -39,7 +39,7 @@
     {
       "category": "it_ai",
       "title": "AnthropicとOpenAI、AI導入支援の「Forward Deployed Engineer」新会社を相次ぎ設立",
-      "summary": "AnthropicとOpenAIが2026年5月、「Forward Deployed Engineer（FDE）」を派遣してユーザー企業のAI導入を支援する新会社を相次ぎ設立した。AIモデルの提供にとどまらず、現場への実装・定着支援まで担う事業モデルへのシフトを示す動きで、エンタープライズAI市場での競争が新段階に入った。",
+      "summary": "AnthropicとOpenAIが2026年5月、「Forward Deployed Engineer（FDE）」を派遣してユーザー企業のAI導入を支援する新会社を相次ぎ設立した。AIモデルの提供にとどまらず、現場への実装・定着支援まで担う事業モデルへのシフトで、エンタープライズAI市場の競争が新段階に入った。",
       "url": "https://www.itmedia.co.jp/keywords/ai.html",
       "published_at": "2026-05-20T00:00:00+09:00"
     },
@@ -97,4 +97,14 @@
       "title": "長期金利が2.73%に急上昇、1997年以来29年ぶりの高水準",
       "summary": "東京債券市場で5月15日、新発10年物国債の流通利回りが2.730%に急上昇し、1997年5月以来29年ぶりの高水準を記録。日銀の金融政策正常化と財政拡大懸念が背景にあり、住宅ローン・企業借入コストへの影響が広がりつつある。",
       "url": "https://www.dlri.co.jp/report/macro/607272.html",
-      "published_at": "2026-
+      "published_at": "2026-05-15T00:00:00+09:00"
+    },
+    {
+      "category": "featured",
+      "title": "エンゲル係数が45年ぶり28.8%の高水準、「物価高倒産」が月108件で過去最多",
+      "summary": "2025年度の家計のエンゲル係数が28.8%に達し45年ぶりの高水準に。食品・エネルギー価格の高騰が家計を直撃し続けるなか、4月の物価高倒産は108件で2018年以降の月次最多を更新。消費税軽減措置の議論が与党内で本格化している。",
+      "url": "https://www.jiji.com/jc/archives?g=eco_archive_0",
+      "published_at": "2026-05-30T07:34:17+09:00"
+    }
+  ]
+}
